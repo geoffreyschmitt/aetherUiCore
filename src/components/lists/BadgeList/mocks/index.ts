@@ -1,0 +1,1 @@
+export { badgeListMock } from './badgeListMock';

@@ -1,0 +1,19 @@
+{
+  "name": "aether-ui-core",
+  "version": "1.0.0",
+  "description": "UI library",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffreyschmitt/aetherUiCore.git"
+  },
+  "author": "Geoffrey Schmitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geoffreyschmitt/aetherUiCore/issues"
+  },
+  "homepage": "https://github.com/geoffreyschmitt/aetherUiCore#readme"
+}

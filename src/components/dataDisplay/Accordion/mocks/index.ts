@@ -1,0 +1,1 @@
+export { accordionItemListMock } from './accordionItemList';
