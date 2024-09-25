@@ -17,7 +17,7 @@ npm install aetherUi/core
 
 ```js
 // Component
-export const Container = (props: TComponent) => <RootElement {...props} />;
+export const Component = (props: TComponent) => <RootElement {...props} />;
 ```
 
 ### Component typing
