@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
+    "noEmit": false,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -15,15 +17,21 @@
     "incremental": true,
     "baseUrl": "./",
     "paths": {
-      "@/aether-ui/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"]
+    },
+    "declaration": true,
+    "declarationDir": "./dist",
   },
   "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
     "next-env.d.ts",
     "additional.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
     "types.d.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx"]
 }

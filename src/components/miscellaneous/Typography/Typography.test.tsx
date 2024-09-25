@@ -15,7 +15,9 @@ describe('Typography Component', () => {
     const componentElement = getByTestId('Typography');
 
     expect(componentElement).toBeInTheDocument();
-    expect(getByText(Typography.args.children)).toBeInTheDocument();
+    expect(componentElement).toHaveTextContent(
+      Typography.args.children as string,
+    );
     expect(componentElement.tagName).toBe('SPAN');
     expect(componentElement).toHaveClass(`typography`);
   });

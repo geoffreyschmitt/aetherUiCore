@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 
 export type TCarousel = TComponentProps &
   Readonly<{

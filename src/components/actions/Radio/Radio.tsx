@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 
 import { RootElement } from './Radio.styles';
 import { TRadio } from './Radio.types';

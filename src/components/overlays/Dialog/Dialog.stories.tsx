@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
+import { SATComponentPropsWithRequiredChildren } from '@/utils';
 import { Dialog as Component } from './index';
-import { dialogEventChannel } from '@/aether-ui/eventChannels';
+import { dialogEventChannel } from '@/eventChannels';
 
 const meta: Meta = {
   title: 'Components/Overlays/Dialog',

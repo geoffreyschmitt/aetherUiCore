@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 
-import { SATComponentPropsWithChildren } from '@/aether-ui/utils';
+import { SATComponentPropsWithChildren } from '@/utils';
 
 import { Checkbox as Component } from './index';
 

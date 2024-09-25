@@ -1,12 +1,12 @@
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 import { ComponentType, ReactNode } from 'react';
-import { TInput } from '@/aether-ui/components/actions/Input';
-import { TCheckbox } from '@/aether-ui/components/actions/Checkbox';
-import { TRadio } from '@/aether-ui/components/actions/Radio';
-import { TSelect } from '@/aether-ui/components/actions/Select';
-import { TRadioList } from '@/aether-ui/components/lists/RadioList';
-import { TButton } from '@/aether-ui/components/actions';
-import { TTextArea } from '@/aether-ui/components/actions/TextArea';
+import { TInput } from '@/components/actions/Input';
+import { TCheckbox } from '@/components/actions/Checkbox';
+import { TRadio } from '@/components/actions/Radio';
+import { TSelect } from '@/components/actions/Select';
+import { TRadioList } from '@/components/lists/RadioList';
+import { TButton } from '@/components/actions';
+import { TTextArea } from '@/components/actions/TextArea';
 
 export type TInputFormEntry = { componentType: 'input' } & TInput;
 export type TTextAreaFormEntry = { componentType: 'textArea' } & TTextArea;

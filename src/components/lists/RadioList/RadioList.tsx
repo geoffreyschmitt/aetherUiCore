@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 import { RootElement } from './RadioList.styles';
 import { TRadioList } from './RadioList.types';
-import { Radio } from '@/aether-ui/components/actions/Radio';
+import { Radio } from '@/components/actions/Radio';
 
 export const RadioList = ({
   className,

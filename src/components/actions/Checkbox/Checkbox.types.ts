@@ -1,6 +1,6 @@
 import { HTMLAttributes, InputHTMLAttributes } from 'react';
 
-import { TComponentPropsWithChildren } from '@/aether-ui/utils';
+import { TComponentPropsWithChildren } from '@/utils';
 
 export type TCheckbox = HTMLAttributes<HTMLElement> &
   TComponentPropsWithChildren &

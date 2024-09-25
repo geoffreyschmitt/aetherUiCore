@@ -1,5 +1,5 @@
 import { ImageProps } from 'next/image';
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 
 export type TImageSource = {
   /**

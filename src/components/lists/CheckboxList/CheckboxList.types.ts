@@ -1,6 +1,6 @@
 import { ComponentType, ReactNode } from 'react';
-import { TComponentProps } from '@/aether-ui/utils';
-import { TCheckbox } from '@/aether-ui/components/actions/Checkbox';
+import { TComponentProps } from '@/utils';
+import { TCheckbox } from '@/components/actions/Checkbox';
 
 type TCheckboxListItemList = TCheckbox[];
 

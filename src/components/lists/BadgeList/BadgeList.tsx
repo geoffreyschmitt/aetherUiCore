@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 import { RootElement } from './BadgeList.styles';
 import { TBadgeList } from './BadgeList.types';
-import { Badge } from '@/aether-ui/components/dataDisplay/Badge';
+import { Badge } from '@/components/dataDisplay/Badge';
 
 export const BadgeList = ({
   className,

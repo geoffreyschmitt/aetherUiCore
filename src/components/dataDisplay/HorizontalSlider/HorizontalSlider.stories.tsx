@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import { HorizontalSlider as Component } from './HorizontalSlider';
 import { expect, within } from '@storybook/test';
-import { SATComponentPropsWithChildren } from '@/aether-ui/utils';
+import { SATComponentPropsWithChildren } from '@/utils';
 
 const meta: Meta = {
   title: 'Components/dataDisplay/HorizontalSlider',

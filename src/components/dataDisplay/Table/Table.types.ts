@@ -1,4 +1,4 @@
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 
 type TTableHeader = Readonly<string[]>;
 

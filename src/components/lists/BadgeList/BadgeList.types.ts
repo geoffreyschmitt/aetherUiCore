@@ -1,6 +1,6 @@
 import { ComponentType, ReactNode } from 'react';
-import { TComponentProps } from '@/aether-ui/utils';
-import { TBadge } from '@/aether-ui/components/dataDisplay/Badge';
+import { TComponentProps } from '@/utils';
+import { TBadge } from '@/components/dataDisplay/Badge';
 
 type TBadgeListItemList = TBadge[];
 

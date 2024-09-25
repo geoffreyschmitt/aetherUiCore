@@ -1,6 +1,6 @@
 import React, { FormEvent, ReactNode } from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 
 import { RootElement } from './Form.styles';
 import {
@@ -13,14 +13,14 @@ import {
   TSelectFormEntry,
   TTextAreaFormEntry,
 } from './Form.types';
-import { Input } from '@/aether-ui/components/actions/Input';
-import { Radio } from '@/aether-ui/components/actions/Radio';
-import { Checkbox } from '@/aether-ui/components/actions/Checkbox';
-import { Select } from '@/aether-ui/components/actions/Select';
-import { RadioList } from '@/aether-ui/components/lists/RadioList';
-import { formEventChannel } from '@/aether-ui/eventChannels';
-import { Button } from '@/aether-ui/components/actions';
-import { TextArea } from '@/aether-ui/components/actions/TextArea';
+import { Input } from '@/components/actions/Input';
+import { Radio } from '@/components/actions/Radio';
+import { Checkbox } from '@/components/actions/Checkbox';
+import { Select } from '@/components/actions/Select';
+import { RadioList } from '@/components/lists/RadioList';
+import { formEventChannel } from '@/eventChannels';
+import { Button } from '@/components/actions';
+import { TextArea } from '@/components/actions/TextArea';
 
 export const Form = ({
   className,

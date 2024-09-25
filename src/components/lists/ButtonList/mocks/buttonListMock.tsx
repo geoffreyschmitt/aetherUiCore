@@ -1,4 +1,4 @@
-import { TButtonList } from '@/aether-ui/components/lists/ButtonList';
+import { TButtonList } from '@/components/lists/ButtonList';
 
 export const buttonListMock: TButtonList['itemList'] = [
   {

@@ -15,7 +15,7 @@ describe('Badge Component', () => {
     const componentElement = getByTestId('Badge');
 
     expect(componentElement).toBeInTheDocument();
-    expect(getByText(Badge.args.children)).toBeInTheDocument();
+    expect(componentElement).toHaveTextContent(Badge.args.children as string);
     expect(componentElement.tagName).toBe('SPAN');
     expect(componentElement).toHaveClass(`badge`);
   });

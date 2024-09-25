@@ -15,7 +15,6 @@ describe('PageLayout Component', () => {
     const componentElement = getByTestId('PageLayout');
 
     expect(componentElement).toBeInTheDocument();
-    expect(componentElement.tagName).toBe('DIV');
     expect(componentElement).toHaveClass(`page-layout`);
   });
 
@@ -26,14 +25,6 @@ describe('PageLayout Component', () => {
 
     expect(componentElement).toBeInTheDocument();
     expect(componentElement).toHaveClass(`page-layout ${customClassName}`);
-  });
-
-  it('renders product label with provided props', () => {
-    const tag = 'h2';
-    const { getByTestId } = render(<PageLayout tag={tag} />);
-
-    const componentElement = getByTestId('PageLayout');
-    expect(componentElement.tagName).toBe('H2');
   });
 
   it('passes accessibility tests', async () => {

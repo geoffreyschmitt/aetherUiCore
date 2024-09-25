@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 import { RootElement } from './ButtonList.styles';
 import { TButtonList, TButtonListItem } from './ButtonList.types';
-import { Button, ButtonLink } from '@/aether-ui/components/actions/Button';
+import { Button, ButtonLink, TButton } from '@/components/actions/Button';
 
 export const ButtonList = ({
   className,
@@ -21,7 +21,7 @@ export const ButtonList = ({
     if ('href' in item && item.href) {
       return <ButtonLinkComponent key={index} {...item} />;
     }
-    return <ButtonComponent key={index} {...item} />;
+    return <ButtonComponent key={index} {...(item as TButton)} />;
   };
 
   return (

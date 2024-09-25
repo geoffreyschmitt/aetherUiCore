@@ -1,6 +1,6 @@
 import { InputHTMLAttributes, ReactNode } from 'react';
 
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 
 export type TInput = TComponentProps &
   InputHTMLAttributes<HTMLLabelElement> &

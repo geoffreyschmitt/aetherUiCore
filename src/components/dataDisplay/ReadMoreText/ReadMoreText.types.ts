@@ -1,6 +1,6 @@
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 import { ComponentType, ReactNode } from 'react';
-import { TButton } from '@/aether-ui/components/actions';
+import { TButton } from '@/components/actions';
 
 export type TReadMoreText = TComponentProps & {
   text: ReactNode;

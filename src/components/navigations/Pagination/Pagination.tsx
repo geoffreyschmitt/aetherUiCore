@@ -1,7 +1,7 @@
 import React from 'react';
 import { TPagination } from './Pagination.types';
 import { RootElement } from './Pagination.styles';
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 
 export const Pagination = ({
   className,

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentProps } from '@/aether-ui/utils';
+import { SATComponentProps } from '@/utils';
 
 import { ButtonList as Component } from './ButtonList';
 import { buttonListMock } from './mocks';

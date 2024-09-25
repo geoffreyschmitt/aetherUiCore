@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 
-import { Icon } from '@/aether-ui/components/miscellaneous/Icon/Icon';
-import { EIconVariant } from '@/aether-ui/components/miscellaneous/Icon/Icon.types';
+import { Icon } from '@/components/miscellaneous/Icon/Icon';
+import { EIconVariant } from '@/components/miscellaneous/Icon/Icon.types';
 import { RootElement } from './Accordion.styles';
 import { TAccordion } from './Accordion.types';
 

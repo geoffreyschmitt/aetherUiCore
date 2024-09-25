@@ -1,6 +1,6 @@
 import { ComponentType, ReactNode } from 'react';
-import { TComponentProps } from '@/aether-ui/utils';
-import { TRadio } from '@/aether-ui/components/actions/Radio';
+import { TComponentProps } from '@/utils';
+import { TRadio } from '@/components/actions/Radio';
 
 type TRadioListItemList = TRadio[];
 

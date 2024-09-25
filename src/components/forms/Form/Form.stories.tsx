@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentProps } from '@/aether-ui/utils';
+import { SATComponentProps } from '@/utils';
 
 import { Form as Component } from './Form';
 import { formEntryListMock } from './mocks';
-import { formEventChannel } from '@/aether-ui/eventChannels';
+import { formEventChannel } from '@/eventChannels';
 import { expect, userEvent, fn, within } from '@storybook/test';
 
 const meta: Meta<typeof Component> = {

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 
 import { RootElement } from './PageLayout.styles';
 import { TPageLayout } from './PageLayout.types';
-import { Header } from '@/aether-ui/components/navigations/Header';
-import { Footer } from '@/aether-ui/components/navigations/Footer';
+import { Header } from '@/components/navigations/Header';
+import { Footer } from '@/components/navigations/Footer';
 
 export const PageLayout = ({
   className,

@@ -1,2 +1,2 @@
 export { Accordion } from './Accordion';
-export type { EAccordionTitleVariant, TAccordion } from './Accordion.types';
+export type { TAccordion } from './Accordion.types';

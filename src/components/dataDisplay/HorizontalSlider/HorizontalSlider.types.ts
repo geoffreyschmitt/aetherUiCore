@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { TComponentPropsWithChildren } from '@/aether-ui/utils';
+import { TComponentPropsWithChildren } from '@/utils';
 
 export type THorizontalSlider = TComponentPropsWithChildren &
   Readonly<{

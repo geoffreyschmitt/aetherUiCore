@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentProps } from '@/aether-ui/utils';
+import { SATComponentProps } from '@/utils';
 
 import { CheckboxList as Component } from './CheckboxList';
 import { checkboxListMock } from './mocks';

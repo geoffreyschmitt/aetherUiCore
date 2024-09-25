@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 
 import { RootElement } from './ReadMoreText.styles';
 import { TReadMoreText } from './ReadMoreText.types';
-import { useResizeHandler } from '@/aether-ui/hooks/useResizeHandler';
+import { useResizeHandler } from '@/hooks/useResizeHandler';
 
 const isEllipsisActive = (e: HTMLElement) => {
   return e.offsetHeight < e.scrollHeight;

@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 
 type TAccordionItem = Readonly<{
   title: ReactNode;

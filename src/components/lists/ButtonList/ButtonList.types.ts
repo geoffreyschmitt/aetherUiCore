@@ -1,6 +1,6 @@
 import { ComponentType, ReactNode } from 'react';
-import { TComponentProps } from '@/aether-ui/utils';
-import { TButton, TButtonLink } from '@/aether-ui/components/actions/Button';
+import { TComponentProps } from '@/utils';
+import { TButton, TButtonLink } from '@/components/actions/Button';
 
 export type TButtonListItem = TButton | TButtonLink;
 export type TButtonListItemList = TButtonListItem[];

@@ -1,5 +1,5 @@
-import { TComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
-import { TDialog } from '@/aether-ui/components/overlays/Dialog';
+import { TComponentPropsWithRequiredChildren } from '@/utils';
+import { TDialog } from '@/components/overlays/Dialog';
 import { ComponentType } from 'react';
 
 export enum EDrawerPosition {

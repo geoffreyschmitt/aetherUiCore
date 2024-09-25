@@ -1,5 +1,5 @@
 import React from 'react';
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 import { THeader } from './Header.types';
 import { RootElement } from './Header.styles';
 

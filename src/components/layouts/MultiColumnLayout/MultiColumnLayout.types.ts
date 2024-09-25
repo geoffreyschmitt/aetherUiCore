@@ -1,4 +1,4 @@
-import { TComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
+import { TComponentPropsWithRequiredChildren } from '@/utils';
 import { ReactNode } from 'react';
 
 export type TMultiColumnLayout = TComponentPropsWithRequiredChildren &

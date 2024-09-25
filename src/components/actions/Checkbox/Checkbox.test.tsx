@@ -35,7 +35,9 @@ describe('Checkbox Component', () => {
     expect(checkboxVisualElement).toHaveStyle('background: white');
 
     expect(checkboxChildren).toBeInTheDocument();
-    expect(checkboxChildren).toHaveTextContent(Checkbox.args.children);
+    expect(checkboxChildren).toHaveTextContent(
+      Checkbox.args.children as string,
+    );
   });
 
   it('renders with custom classname', () => {

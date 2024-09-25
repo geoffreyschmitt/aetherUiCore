@@ -1,5 +1,5 @@
-import { TForm } from '@/aether-ui/components/forms/Form';
-import { selectOptionListMock } from '@/aether-ui/components/actions/Select/mocks';
+import { TForm } from '@/components/forms/Form';
+import { selectOptionListMock } from '@/components/actions/Select/mocks';
 
 export const formEntryListMock: TForm['formEntryList'] = [
   {

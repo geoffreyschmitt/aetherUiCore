@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import { Carousel as Component } from './Carousel';
 import { expect, within } from '@storybook/test';
-import { SATComponentProps } from '@/aether-ui/utils';
+import { SATComponentProps } from '@/utils';
 
 const meta: Meta = {
   title: 'Components/dataDisplay/Carousel',

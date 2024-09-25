@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { fn } from '@storybook/test';
 
-import { SATComponentProps } from '@/aether-ui/utils';
+import { SATComponentProps } from '@/utils';
 import { Pagination as Component } from './index';
 import { useState } from 'react';
 

@@ -1,2 +1,2 @@
 export { Checkbox } from './Checkbox';
-export type { ECheckboxLabelVariant, TCheckbox } from './Checkbox.types';
+export type { TCheckbox } from './Checkbox.types';

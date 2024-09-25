@@ -1,9 +1,10 @@
 {
   "name": "aether-ui-core",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "UI library",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest --config jest.config.ts --silent"
   },
   "repository": {
@@ -19,5 +20,15 @@
   "dependencies": {
     "styled-components": "^6.1.13",
     "typescript": "^5.6.2"
+  },
+  "exports": {
+    "./utils": {
+      "import": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./components": {
+      "import": "./dist/components/*",
+      "types": "./dist/components/*"
+    }
   }
 }

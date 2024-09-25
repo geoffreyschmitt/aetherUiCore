@@ -1,6 +1,6 @@
 import { TextareaHTMLAttributes, ReactNode, HTMLAttributes } from 'react';
 
-import { TComponentProps } from '@/aether-ui/utils';
+import { TComponentProps } from '@/utils';
 
 export type TTextArea = TComponentProps &
   HTMLAttributes<HTMLLabelElement> &

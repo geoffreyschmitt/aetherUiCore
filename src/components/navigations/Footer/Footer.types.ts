@@ -1,3 +1,3 @@
-import { TComponentPropsWithChildren } from '@/aether-ui/utils';
+import { TComponentPropsWithChildren } from '@/utils';
 
 export type TFooter = TComponentPropsWithChildren;

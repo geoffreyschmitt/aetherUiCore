@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui/utils';
+import { classNames } from '@/utils';
 
 import { RootElement } from './Breadcrumb.styles';
 import { TBreadcrumb } from './Breadcrumb.types';
-import { Link } from '@/aether-ui/components/actions/Link';
+import { Link } from '@/components/actions/Link';
 
 export const Breadcrumb = ({
   className,
