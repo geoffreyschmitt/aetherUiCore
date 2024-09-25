@@ -6,8 +6,8 @@ import React, {
   useState,
 } from 'react';
 
-import { EIconVariant, Icon } from '@/aether-ui-core/src/components/miscellaneous/Icon';
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { EIconVariant, Icon } from '@/aether-ui/components/miscellaneous/Icon';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Select.styles';
 import { TSelect, TSelectOption } from './Select.types';

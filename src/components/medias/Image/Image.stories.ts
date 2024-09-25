@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentProps } from '@/aether-ui-core/src/utils';
+import { SATComponentProps } from '@/aether-ui/utils';
 
 import { Image as Component } from './index';
 import {
   imageMock,
   imageWithAltMock,
   imageWithSourcesMock,
-} from '@/aether-ui-core/src/components/medias/Image/mocks';
+} from '@/aether-ui/components/medias/Image/mocks';
 
 const meta: Meta<typeof Component> = {
   title: 'Components/Medias/Image',

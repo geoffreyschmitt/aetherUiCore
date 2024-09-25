@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { SATComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 import { Header as Component } from './index';
 
 const meta: Meta = {

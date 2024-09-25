@@ -1,4 +1,4 @@
-import { TComponentProps } from '@/aether-ui-core/src/utils';
+import { TComponentProps } from '@/aether-ui/utils';
 
 export type TBreadcrumb = TComponentProps &
   Readonly<{

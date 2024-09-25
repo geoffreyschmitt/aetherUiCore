@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Typography.styles';
 import { TTypography } from './Typography.types';

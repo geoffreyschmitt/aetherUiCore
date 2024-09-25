@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { RootElement } from './Dialog.styles';
 import { TDialog } from './Dialog.types';
-import { classNames } from '@/aether-ui-core/src/utils';
-import { dialogEventChannel } from '@/aether-ui-core/src/eventChannels';
+import { classNames } from '@/aether-ui/utils';
+import { dialogEventChannel } from '@/aether-ui/eventChannels';
 
 export const Dialog = ({
   className,

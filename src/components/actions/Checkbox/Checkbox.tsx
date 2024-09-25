@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Checkbox.styles';
 import { TCheckbox } from './Checkbox.types';

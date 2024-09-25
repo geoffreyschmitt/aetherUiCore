@@ -1,7 +1,7 @@
 'use client';
 import React, { useRef, useState } from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Tabs.styles';
 import { TTab, TTabs } from './Tabs.types';

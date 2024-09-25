@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentProps } from '@/aether-ui-core/src/utils';
+import { SATComponentProps } from '@/aether-ui/utils';
 
 import { ReadMoreText as Component } from './ReadMoreText';
 

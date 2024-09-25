@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { SATComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 import { Dialog as Component } from './index';
-import { dialogEventChannel } from '@/aether-ui-core/src/eventChannels';
+import { dialogEventChannel } from '@/aether-ui/eventChannels';
 
 const meta: Meta = {
   title: 'Components/Overlays/Dialog',
@@ -68,8 +68,6 @@ export const DialogAsModal: Story = {
     isModal: true,
   },
   render: args => {
-    const openModal = () => {};
-
     return (
       <>
         <button onClick={openDialog}>Open modal</button>

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 import { RootElement } from './CheckboxList.styles';
 import { TCheckboxList } from './CheckboxList.types';
-import { Checkbox } from '@/aether-ui-core/src/components/actions/Checkbox';
+import { Checkbox } from '@/aether-ui/components/actions/Checkbox';
 
 export const CheckboxList = ({
   className,

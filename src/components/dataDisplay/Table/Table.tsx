@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Table.styles';
 import { TTable } from './Table.types';
@@ -29,7 +29,7 @@ export const Table = ({ className, headerList, rowList, ...props }: TTable) => {
             </th>
           ))}
         </tr>
-        {rowList?.map((row, i) => (
+        {rowList?.map(row => (
           <tr key={`row-${row.id}`} className={'table__row'}>
             {headerList.map(
               key =>

@@ -1,4 +1,4 @@
-import { TSelect } from '@/aether-ui-core/src/components/actions/Select';
+import { TSelect } from '@/aether-ui/components/actions/Select';
 
 export const selectOptionListMock: TSelect['optionList'] = [
   {

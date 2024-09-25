@@ -1,3 +1,3 @@
-import { TComponentPropsWithChildren } from '@/aether-ui-core/src/utils';
+import { TComponentPropsWithChildren } from '@/aether-ui/utils';
 
 export type THeader = TComponentPropsWithChildren;

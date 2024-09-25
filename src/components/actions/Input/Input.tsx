@@ -1,7 +1,7 @@
 'use client';
 import React, { ChangeEvent, forwardRef, useState } from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Input.styles';
 import { TInput } from './Input.types';

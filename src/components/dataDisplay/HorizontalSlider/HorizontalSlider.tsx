@@ -1,6 +1,6 @@
 'use client';
 import React, { useRef, useState } from 'react';
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './HorizontalSlider.styles';
 import { THorizontalSlider } from './HorizontalSlider.types';

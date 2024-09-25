@@ -1,4 +1,4 @@
-import { TBadgeList } from '@/aether-ui-core/src/components/lists/BadgeList';
+import { TBadgeList } from '@/aether-ui/components/lists/BadgeList';
 
 export const badgeListMock: TBadgeList['itemList'] = [
   {

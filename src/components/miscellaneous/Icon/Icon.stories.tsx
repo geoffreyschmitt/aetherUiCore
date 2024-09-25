@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentProps } from '@/aether-ui-core/src/utils/componentProps/componentProps';
+import { SATComponentProps } from '@/aether-ui/utils';
 
 import { EIconVariant, Icon as Component } from './index';
 

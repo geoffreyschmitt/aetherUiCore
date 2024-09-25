@@ -1,4 +1,4 @@
-import { TRadioList } from '@/aether-ui-core/src/components/lists/RadioList';
+import { TRadioList } from '@/aether-ui/components/lists/RadioList';
 
 export const radioListMock: TRadioList['itemList'] = [
   {

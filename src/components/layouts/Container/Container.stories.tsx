@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { SATComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 
 import { Container as Component } from './index';
 

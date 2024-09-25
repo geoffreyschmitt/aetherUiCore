@@ -1,4 +1,4 @@
-import { TCheckboxList } from '@/aether-ui-core/src/components/lists/CheckboxList';
+import { TCheckboxList } from '@/aether-ui/components/lists/CheckboxList';
 
 export const checkboxListMock: TCheckboxList['itemList'] = [
   {

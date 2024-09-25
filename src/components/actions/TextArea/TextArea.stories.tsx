@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 
-import { SATComponentProps } from '@/aether-ui-core/src/utils';
+import { SATComponentProps } from '@/aether-ui/utils';
 
 import { TextArea as Component } from './index';
 

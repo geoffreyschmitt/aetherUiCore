@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SATComponentProps } from '@/aether-ui-core/src/utils';
+import { SATComponentProps } from '@/aether-ui/utils';
 
 import { Table as Component } from './Table';
 
@@ -25,10 +25,6 @@ const meta: Meta<typeof Component> = {
 export default meta;
 
 type Story = StoryObj<typeof Component>;
-
-const defaultComponentFallBack = (
-  <div className={'fallback-component'}>This is the fallback component</div>
-);
 
 export const Table: Story = {
   args: {

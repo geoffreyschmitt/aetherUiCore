@@ -1,6 +1,6 @@
 import React, { ForwardedRef, forwardRef } from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './LinkButton.styles';
 import { TLinkButton } from './LinkButton.types';

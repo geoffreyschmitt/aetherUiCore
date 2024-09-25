@@ -1,7 +1,7 @@
-import { TComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { TComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 import { ComponentType } from 'react';
-import { THeader } from '@/aether-ui-core/src/components/navigations/Header';
-import { TFooter } from '@/aether-ui-core/src/components/navigations/Footer';
+import { THeader } from '@/aether-ui/components/navigations/Header';
+import { TFooter } from '@/aether-ui/components/navigations/Footer';
 
 export type TPageLayout = TComponentPropsWithRequiredChildren &
   Readonly<{

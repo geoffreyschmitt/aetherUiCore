@@ -1,3 +1,3 @@
-import { TComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { TComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 
 export type TLinkCommonProps = TComponentPropsWithRequiredChildren;

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { fn } from '@storybook/test';
 
-import { SATComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { SATComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 
 export const SATButton = {
   ...SATComponentPropsWithRequiredChildren,

@@ -1,4 +1,4 @@
-import { TImage } from '@/aether-ui-core/src/components/medias/Image';
+import { TImage } from '@/aether-ui/components/medias/Image';
 import { imageWithAltMock } from './imageWithAltMock';
 
 export const imageWithSourcesMock: TImage = {

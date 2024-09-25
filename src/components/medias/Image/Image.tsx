@@ -1,7 +1,7 @@
 import React from 'react';
 import NextImage from 'next/image';
 
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Image.styles';
 import { TImage } from './Image.types';

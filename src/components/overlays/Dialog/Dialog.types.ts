@@ -1,6 +1,6 @@
-import { TComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { TComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 import { ComponentType, ReactNode } from 'react';
-import { TButton } from '@/aether-ui-core/src/components/actions';
+import { TButton } from '@/aether-ui/components/actions';
 
 export type TDialog = TComponentPropsWithRequiredChildren &
   Readonly<{

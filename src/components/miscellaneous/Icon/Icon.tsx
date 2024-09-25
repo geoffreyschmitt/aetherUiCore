@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 
 import { EIconVariant, TIcon } from './Icon.types';
 import * as IconVariants from './variants';

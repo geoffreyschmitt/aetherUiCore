@@ -1,4 +1,4 @@
-import { SATComponentPropsWithRequiredChildren } from '@/aether-ui-core/src/utils';
+import { SATComponentPropsWithRequiredChildren } from '@/aether-ui/utils';
 
 export const SATLink = {
   ...SATComponentPropsWithRequiredChildren,

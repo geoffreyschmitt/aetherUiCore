@@ -1,7 +1,7 @@
 import React from 'react';
 import { TFooter } from './Footer.types';
 import { RootElement } from './Footer.styles';
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 
 export const Footer = ({ className, children, ...props }: TFooter) => {
   if (!children) {

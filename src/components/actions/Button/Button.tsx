@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { classNames } from '@/aether-ui/utils';
 
 //import { EButtonColor, EButtonSize, EButtonStyle } from './Button.global.types';
 import { RootElement } from './Button.styles';

@@ -1,8 +1,8 @@
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
 
-import { useSwipe } from '@/aether-ui-core/src/hooks/useSwipe';
-import { classNames } from '@/aether-ui-core/src/utils/classNames';
+import { useSwipe } from '@/aether-ui/hooks/useSwipe';
+import { classNames } from '@/aether-ui/utils';
 
 import { RootElement } from './Carousel.styles';
 import { TCarousel } from './Carousel.types';

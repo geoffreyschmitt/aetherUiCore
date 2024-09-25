@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 import { RootElement } from './ButtonList.styles';
 import { TButtonList, TButtonListItem } from './ButtonList.types';
-import { Button, ButtonLink } from '@/aether-ui-core/src/components/actions/Button';
+import { Button, ButtonLink } from '@/aether-ui/components/actions/Button';
 
 export const ButtonList = ({
   className,

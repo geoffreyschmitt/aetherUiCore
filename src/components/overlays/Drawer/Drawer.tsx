@@ -1,6 +1,6 @@
 import React from 'react';
 import { RootElement } from './Drawer.styles';
-import { classNames } from '@/aether-ui-core/src/utils';
+import { classNames } from '@/aether-ui/utils';
 import { TDrawer } from './Drawer.types';
 
 export const Drawer = ({
