@@ -1,4 +1,4 @@
-import { eventbus } from '@/aether-ui-core/src/utils';
+import { eventbus } from '../';
 
 export const dialogEventChannel = eventbus<{
   openDialog: (payload: { id: string }) => void;

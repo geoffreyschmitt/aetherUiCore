@@ -1,4 +1,4 @@
-import { eventbus } from '@/aether-ui-core/src/utils';
+import { eventbus } from '../';
 
 export const formEventChannel = eventbus<{
   submitForm: (payload: { id: string; formData: FormData }) => void;

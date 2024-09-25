@@ -1,1 +1,0 @@
-export { eventbus } from './eventbus';

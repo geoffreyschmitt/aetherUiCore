@@ -18,7 +18,7 @@ import { Radio } from '@/aether-ui-core/src/components/actions/Radio';
 import { Checkbox } from '@/aether-ui-core/src/components/actions/Checkbox';
 import { Select } from '@/aether-ui-core/src/components/actions/Select';
 import { RadioList } from '@/aether-ui-core/src/components/lists/RadioList';
-import { dialogEventChannel, formEventChannel } from '@/aether-ui-core/src/eventChannels';
+import { formEventChannel } from '@/aether-ui-core/src/eventChannels';
 import { Button } from '@/aether-ui-core/src/components/actions';
 import { TextArea } from '@/aether-ui-core/src/components/actions/TextArea';
 
